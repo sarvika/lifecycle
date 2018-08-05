@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.sarvika</groupId>
+    <artifactId>lifecycle</artifactId>
+    <version>1.0</version>
+    <name>Lifecycle</name>
+    <description>A clone of Apache's Lifecycle API</description>
+    <url>https://opensource.sarvika.com/lifecycle</url>
+    <organization>
+        <url>https://opensource.sarvika.com</url>
+        <name>Sarvika Opensource</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Jay Godara</name>
+            <url>https://jgodara.github.io</url>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <organization>Sarvika</organization>
+            <organizationUrl>http://sarvika.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <url>https://github.com/sarvika/lifecycle/issues</url>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+    </dependencies>
+
+</project>
