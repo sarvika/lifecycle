@@ -69,7 +69,7 @@ start()
 
 ## Including Lifecycle in your Maven project
 
-Add the following in your `pom.xml` so that your project is aware of our artifact repository.
+Add the following in your `pom.xml` so that your project is aware of [our artifact repository](https://opensource.sarvika.com/maven-repo/).
 
 ```xml
 <repositories>
