@@ -168,3 +168,7 @@ You can also have a look at the [javadoc](https://sarvika.github.io/lifecycle/do
 
 We always encourage the users of our projects to contribute to them by improving source code or providing more
 documentation and examples.
+
+---
+
+[Sarvika Opensource](https://opensource.sarvika.com) Team
