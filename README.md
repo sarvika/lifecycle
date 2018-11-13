@@ -75,7 +75,7 @@ Add the following in your `pom.xml` so that your project is aware of [our artifa
 <repositories>
     <repository>
         <id>sarvika-maven-repo</id>
-        <url>https://rawgit.com/sarvika/maven-repo/master</url>
+        <url>https://raw.githubusercontent.com/sarvika/maven-repo/master</url>
         <releases>
             <enabled>true</enabled>
         </releases>
